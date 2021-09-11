@@ -33,4 +33,4 @@ https://3wslxvbyck.execute-api.us-west-2.amazonaws.com/dev/
 
 #### UML
 
-![Auth UML]()
+![API UML]()
