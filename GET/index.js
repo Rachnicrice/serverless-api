@@ -9,7 +9,14 @@ exports.handler = async (event) => {
 
   console.log('__EVENT__:', event);
   
-  let data = await PeopleModel.scan().exec();
+  let data;
+
+  if (event.pathParameters) {
+     let list = await PeopleModel.query('id').eq(event.pathParameters.id).exec();
+     data = list[0];
+  } else {
+    data = await PeopleModel.scan().exec();
+  }
 
   return {
     statusCode: 200,
