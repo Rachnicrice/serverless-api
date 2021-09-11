@@ -9,7 +9,7 @@
 https://3wslxvbyck.execute-api.us-west-2.amazonaws.com/dev/
 
 #### Routes
-- GET ALL: https://3wslxvbyck.execute-api.us-west-2.amazonaws.com/dev/
+- GET ALL: https://3wslxvbyck.execute-api.us-west-2.amazonaws.com/people-trigger/
 
 - GET SPECIFIC: https://3wslxvbyck.execute-api.us-west-2.amazonaws.com/people-trigger/id={ID}
   - Requires path param of user ID
